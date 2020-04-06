@@ -1,0 +1,17 @@
+<mat-grid-list [cols]="board.length" rowHeight="2:1">
+    <ng-container *ngFor="let row of board">
+        <ng-container *ngFor="let cell of row">
+            <mat-grid-tile [class]="{
+                borderLeft: cell.left,
+                borderRight: cell.right,
+                borderTop: cell.top,
+                borderBottom: cell.bottom,
+                selected: cell.selected,
+                start: cell.start,
+                end: cell.end
+            }">
+                {{ cell.dir }}
+            </mat-grid-tile>
+        </ng-container>
+    </ng-container>
+</mat-grid-list>
