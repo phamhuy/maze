@@ -1,6 +1,6 @@
 # Maze
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This project is a multiplayer maze game.
 
 ## Development server
 
