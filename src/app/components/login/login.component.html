@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="text-center pb-4 pt-3">
+                    <span class="text-primary"><i class="fa fa-lock"></i> Maze</span> Login
+                </h1>
+                <form (submit)="onSubmit()">
+                    <div class="form-group">
+                        <input placeholder="Email" type="email" name="email" [(ngModel)]="email" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input placeholder="Password" type="password" name="password" [(ngModel)]="password" required class="form-control">
+                    </div>
+                    <input type="submit" value="Login" class="btn btn-primary btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
