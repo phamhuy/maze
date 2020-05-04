@@ -18,7 +18,7 @@ export class MazeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.N = 20;
+    this.N = 30;
     this.buildBoard();
   }
 
